@@ -7,7 +7,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "8000:8000"
+      - "1300:8000"
     expose:
       - 8000
     restart: always
